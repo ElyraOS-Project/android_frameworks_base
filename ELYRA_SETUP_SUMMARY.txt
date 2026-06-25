@@ -1,0 +1,18 @@
+ElyraOS frameworks/base setup summary
+=====================================
+
+Repository target : ElyraOS-Project/android_frameworks_base
+Source path       : frameworks/base
+Base              : LineageOS/AOSP frameworks/base
+
+Applied changes:
+- Added hidden android.os.Build ElyraOS version fields:
+  - Build.ELYRA_VERSION -> ro.elyra.version
+  - Build.ELYRA_DISPLAY_VERSION -> ro.elyra.display.version
+- Added ElyraOS documentation for this repository.
+
+Safety notes:
+- LineageOS SDK package names are intentionally preserved for early bring-up.
+- org.lineageos.platform and lineageos.* references were not renamed.
+- No SystemUI behavior, system service boot flow, or resource package ID was
+  changed in this repository.
