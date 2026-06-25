@@ -68,6 +68,20 @@ public class Build {
     /** A build ID string meant for displaying to the user */
     public static final String DISPLAY = getString("ro.build.display.id");
 
+    /**
+     * ElyraOS version string reported by the product layer.
+     *
+     * @hide
+     */
+    public static final String ELYRA_VERSION = getString("ro.elyra.version");
+
+    /**
+     * ElyraOS version string meant for displaying to the user.
+     *
+     * @hide
+     */
+    public static final String ELYRA_DISPLAY_VERSION = getString("ro.elyra.display.version");
+
     /** The name of the overall product. */
     public static final String PRODUCT = getString("ro.product.name");
 
