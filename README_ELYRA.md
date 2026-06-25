@@ -18,6 +18,8 @@ stay small until the first booting build is available.
   compatibility with the current vendor layer.
 - The compatibility policy identifies which Lineage references are still
   expected during early bring-up.
+- A validation helper checks ElyraOS hooks and expected Lineage
+  compatibility references.
 
 ## Compatibility Policy
 

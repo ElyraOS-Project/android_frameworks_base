@@ -10,6 +10,8 @@ Applied changes:
   - Build.ELYRA_VERSION -> ro.elyra.version
   - Build.ELYRA_DISPLAY_VERSION -> ro.elyra.display.version
 - Added ElyraOS documentation for this repository.
+- Added a validation script for expected ElyraOS and Lineage compatibility
+  markers.
 
 Safety notes:
 - LineageOS SDK package names are intentionally preserved for early bring-up.
